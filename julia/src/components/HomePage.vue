@@ -6,8 +6,8 @@
                     <h1>Hello! I'm Julia</h1>
                     <h2>Software Engineering Student</h2>
                     <p>
-                        Hi, I'm Julia, and I'm currently completing my second year at McGill University.
-                        I enjoy programming, and I jump on the occasion to work on new projects and learn more about technologies! I know C++, Java, Python, Assembly, C.
+                        I'm currently completing my third year at McGill University.
+                        I love making games, desktop and web applications!!
                         I am also a member of GameDev, the game development student society of McGill University.
                     </p>
                     <p>
@@ -15,8 +15,8 @@
                     </p>
                 </div>
 
-                <div class="col-4 m-auto">
-                        <img class=""
+                <div class="col-sm-3 m-auto image-container">
+                        <img class="p-3"
                             src="/src/assets/pfp.jpg" />
                 </div>
             </div>
@@ -48,9 +48,14 @@ export default {
     min-height: 100vh;
 }
 
+.image-container {
+    width: 300px;
+}
+
 img {
     max-width: inherit;
     height: inherit;
+    min-width: 200px;
 }
 
 .col {
