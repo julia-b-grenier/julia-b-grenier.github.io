@@ -1,11 +1,10 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import HomePage from './components/HomePage.vue'
+import Home from './components/Home.vue'
 import 'bootstrap/dist/css/bootstrap.min.css'
 </script>
 
 <template>
-  <HomePage/>
+  <Home />
 </template>
 
 <style>
