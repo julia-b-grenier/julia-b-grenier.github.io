@@ -1,0 +1,23 @@
+/* Import the font */
+@font-face {
+  font-family: 'Abaddon';
+  src: url('/src/assets/fonts/AbaddonLight.ttf');
+}
+
+html, body {
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  color: #181D27;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Figtree", sans-serif !important;
+  height: inherit;
+}
+
+p {
+  font-size: 1rem;
+}
