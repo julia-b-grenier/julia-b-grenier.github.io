@@ -77,7 +77,7 @@ const count = ref(0)
                           <img class="bd-placeholder-img svg-icon" src="/src/assets/img/sfml-icon.svg" alt="SFML library logo"/>
                       </div>
                   </div>
-                  <p>After making small projects and games using C++, I apply my knowledge during my software engineering internship last summer!</p>
+                  <p>After making small projects and games using C++, I applied my knowledge during my first software engineering internship!</p>
               </div><!-- /.col-lg-4 -->
               <div class="col-lg-4">
                   <img class="bd-placeholder-img svg-icon mb-2" src="/src/assets/img/python.svg" alt="Python programming language logo"/>
