@@ -20,16 +20,19 @@ const count = ref(0)
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav ms-auto mb-2 mb-md-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="#">{{ $t('navbar.home') }}</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" target="_blank" href="https://github.com/julia-b-grenier">GitHub</a>
+                <a class="nav-link" target="_blank" href="https://github.com/julia-b-grenier">{{ $t('navbar.github') }}</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" target="_blank" href="https://www.linkedin.com/in/julia-b-grenier/">LinkedIn</a>
+                <a class="nav-link" target="_blank" href="https://www.linkedin.com/in/julia-b-grenier/">{{ $t('navbar.linkedin') }}</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" title="PDF of my resume" target="_blank" href="cvs/CV_JuliaBGrenier_en.pdf">Resume</a>
+                <a class="nav-link" title="PDF of my resume" target="_blank" href="cvs/CV_JuliaBGrenier_en.pdf">{{ $t('navbar.resume') }}</a>
+              </li>
+              <li class="nav-item">
+                <button class="nav-link" @click="toggleLocale">{{ currentLocale.toUpperCase() }}</button>
               </li>
             </ul>
           </div>
@@ -157,10 +160,6 @@ import ProjectCard from './ProjectCard.vue';
 import anime from 'animejs';
 
 export default {
-  data() {
-      return {
-      };
-  },
   mounted() {
       const textWrapper = this.$el.querySelector('.ml12');
       if (textWrapper) {
@@ -196,6 +195,18 @@ export default {
       projects() {
           return this.$i18n.messages[this.$i18n.locale].projects;
       }
+  },
+  data() {
+    return {
+      currentLocale: this.$i18n.locale
+    };
+  },
+  methods: {
+    toggleLocale() {
+      const newLocale = this.currentLocale === 'en' ? 'fr' : 'en';
+      this.$i18n.locale = newLocale;
+      this.currentLocale = newLocale;
+    }
   }
 };
 </script>
@@ -213,6 +224,22 @@ export default {
 
 .navbar {
   background-color: #2589BD;
+}
+
+.navbar-collapse {
+  text-align: right;
+}
+
+@media (max-width: 767.98px) {
+  .navbar-collapse {
+    text-align: center;
+  }
+}
+
+.navbar-nav .nav-item .nav-link {
+  min-width: 100px;
+  text-align: center;
+  margin: auto;
 }
 
 .section {
@@ -250,17 +277,6 @@ img {
 }
 .d-flex img {
   flex-shrink: 0; /* Prevent images from shrinking */
-}
-
-.btn-secondary {
-  background-color: #A54657;
-  border: #A54657;
-  border-radius: 20px;
-}
-
-.btn-secondary:hover {
-  background-color: #7c2d3c;
-  border: #7c2d3c;
 }
 
 /* RESPONSIVE CSS

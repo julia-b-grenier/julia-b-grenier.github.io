@@ -48,6 +48,17 @@ ul {
   padding-right: 0;
 }
 
+.btn-secondary {
+  background-color: #A54657;
+  border: #A54657;
+  border-radius: 20px;
+}
+
+.btn-secondary:hover {
+  background-color: #7c2d3c;
+  border: #7c2d3c;
+}
+
 /* Featurettes
 ------------------------- */
 .featurette-divider {

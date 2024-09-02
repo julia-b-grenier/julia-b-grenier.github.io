@@ -1,0 +1,114 @@
+{
+    "navbar": {
+      "home": "Accueil",
+      "github": "GitHub",
+      "linkedin": "LinkedIn",
+      "resume": "CV"
+    },
+    "name": "Julia B. Grenier",
+    "title": "Étudiante en Génie Logiciel en Coop",
+    "bio": "Je suis une étudiante en troisième année de Génie Logiciel en Coop à l'Université McGill. J'adore créer des jeux, des logiciels et des applications web !\nJe suis également membre de GameDev, la société étudiante de développement de jeux à l'Université McGill.\nQuand je ne code pas, j'aime jouer au badminton et essayer de nouveaux jeux de société.",
+    "skills": {
+        "cpp": "Après avoir réalisé de petits projets et jeux en utilisant C++, j'ai appliqué mes connaissances lors de mes deux premiers stages en génie logiciel !",
+        "python": "J'ai utilisé mes connaissances en Python pour programmer un modèle d'apprentissage automatique lors du hackathon CodeML.",
+        "csharp": "Avec Unity, j'ai développé en équipe de 5 un jeu 2D appelé 'All Rat Remains' lors du hackathon McGameJam.",
+        "java": "J'ai développé une application de bureau en Java en utilisant JavaFX et une application web en utilisant Spring Boot.",
+        "web": "J'essaie d'en apprendre davantage sur le développement web en codant ce site web ! J'utilise Bootstrap pour le design réactif et Vue.js.",
+        "version_control": "J'ai de l'expérience avec différents systèmes de contrôle de version tels que Git et Perforce."
+    },
+    "internships": {
+        "autodesk": {
+            "title": "Autodesk, C++",
+            "subtitle": "Stagiaire Développeur Logiciel",
+            "duration": "Mai - Août 2024",
+            "info": [
+                "Reconcevoir la fenêtre de gestion de projets du logiciel Flame, améliorant l'expérience utilisateur et l'utilisabilité en ajoutant BOLD(4 nouvelles fonctionnalités) : vue en liste, sélection multiple, suppression en groupe et modèles.",
+                "Adapter la suite de tests automatisés en mettant à jour plus de BOLD(10 tests Python) pour assurer la compatibilité avec la fenêtre de gestion de projets nouvellement redesignée.",
+                "Collaborer avec des équipes multifonctionnelles, BOLD(planifier des réunions) pour discuter de la mise en œuvre de BOLD(solutions logicielles évolutives et adaptables), garantissant l'efficacité et l'attention aux détails.",
+                "Contribuer au processus de déploiement en BOLD(poussant les fichiers de configuration en production), en veillant à ce que l'environnement du client utilise les bibliothèques logicielles les plus récentes et les plus efficaces."
+            ]
+        },
+        "mirametrix": {
+            "title": "Mirametrix Inc., C++",
+            "subtitle": "Stagiaire Ingénieur Logiciel",
+            "duration": "Mai - Août 2023",
+            "info": [
+                "Identifié et BOLD(résolu plus de 15 bugs) dans la base de code C++, démontrant de solides capacités de résolution de problèmes et de débogage et améliorant la qualité globale du logiciel.",
+                "Utilisé BOLD(Perforce) comme système de contrôle de version principal, gérant efficacement le code, suivant les changements et facilitant l'adhésion à un processus de développement agile structuré.",
+                "Participé à des BOLD(revues de code), fournissant des suggestions aux membres de l'équipe, entraînant une amélioration de la qualité du code et du respect des meilleures pratiques.",
+                "Participé aux réunions quotidiennes en suivant la BOLD(méthodologie Scrum) pour favoriser la communication ouverte et fournir des mises à jour sur l'avancement des tâches suivies sur BOLD(Jira), l'outil de gestion de projet."
+            ]
+        }
+    },
+    "projects": {
+        "FitHub": {
+            "title": "Application Web Full Stack, Java",
+            "subtitle": "FitHub",
+            "info": [
+                "Conçu et développé une application web BOLD(full-stack) pour la gestion d'un centre sportif local, offrant une plateforme aux propriétaires et instructeurs pour planifier des cours et permettant aux clients de s'inscrire aux séances.",
+                "BOLD(Spring Boot) pour le backend, BOLD(Vue.js) pour le frontend et BOLD(PostgreSQL) pour la base de données pour créer une expérience utilisateur fluide et efficace.",
+                "APIs RESTful avec Spring Boot pour gérer les opérations BOLD(CRUD), l'authentification des utilisateurs et la validation des données, garantissant une gestion sécurisée et fiable des données."
+            ],
+            "link": "https://github.com/McGill-ECSE321-Winter2024/FitHub/wiki/Screenshots",
+            "images": [
+                "FitHub_login.png",
+                "FitHub_explore.png"
+            ]
+        },
+        "AssetPlus": {
+            "title": "Application de Bureau, Java",
+            "subtitle": "AssetPlus",
+            "info": [
+                "Développé une application de bureau moderne en utilisant Java et BOLD(JavaFX) en équipe de 6 avec une interface utilisateur attrayante qui suit les actifs défectueux dans un hôtel.",
+                "Utilisé BOLD(Umple) pour générer du code Java à partir de modèles, réduisant considérablement le temps de développement.",
+                "Implémenté des tests appliquant les concepts de développement dirigé par le comportement en utilisant BOLD(Junit), Gherkin et Cucumber.io.",
+                "Employé Git pour gérer efficacement la base de code en faisant des demandes de tirage et en les révisant et fusionnant.",
+                "BOLD(Gagné) le titre de 'Meilleure Application' contre 15 autres équipes après avoir présenté l'efficacité de l'application et mis en avant les fonctionnalités supplémentaires ajoutées, telles que BOLD(le support multilingue)."
+            ],
+            "link": "https://github.com/F2023-ECSE223/ecse223-group-project-p12/wiki/Iterations-4%E2%80%905",
+            "images": [
+                "assetplus.png",
+                "assetplus2.png"
+            ]
+        },
+        "AllRatRemains": {
+            "title": "Jeu 2D Unity, C#",
+            "subtitle": "All Rat Remains - Hackathon McGameJam",
+            "info": [
+                "Collaboré avec 4 coéquipiers pour créer un jeu 2D en C# intégrant des labyrinthes, des puzzles et une intrigue mystérieuse.",
+                "Gagné la catégorie 'Meilleur Design Audio.'",
+                "Géré efficacement les implémentations du jeu en utilisant Unity et Git."
+            ],
+            "link": "https://ethearian.itch.io/all-rat-remains",
+            "images": [
+                "all_rat_remains.png"
+            ]
+        },
+        "CodeML": {
+            "title": "Modèle d'Apprentissage Automatique, Python",
+            "subtitle": "Modèle Prédictif du Risque d'Accident Vasculaire Cérébral - Hackathon CodeML",
+            "info": [
+                "Travaillé en équipe de 4 avec Google Colab pour construire un modèle d'intelligence artificielle en Python qui prédit si quelqu'un aura un AVC.",
+                "Atteint le top 5 de notre classement avec le modèle développé.",
+                "Entraîné le modèle en utilisant des classificateurs de la bibliothèque Scikit-learn sur Google Colab pour analyser 2000 points de données.",
+                "Appris dans un atelier sur l'apprentissage automatique comment entraîner un modèle à reconnaître des vêtements."
+            ],
+            "link": "https://github.com/julia-b-grenier/tictactoe",
+            "images": [
+                "codeml.png"
+            ]
+        },
+        "TicTacToe": {
+            "title": "Jeu C++, Tic-Tac-Toe",
+            "subtitle": "TicTacToe",
+            "info": [
+                "Programmé un jeu de Tic-Tac-Toe en C++ avec la bibliothèque de développement logiciel SFML."
+            ],
+            "link": "https://github.com/julia-b-grenier/tictactoe",
+            "images": [
+                "tictactoe1.png"
+            ]
+        }
+    }
+}
+
