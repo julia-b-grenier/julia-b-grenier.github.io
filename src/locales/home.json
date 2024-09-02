@@ -1,0 +1,112 @@
+{
+    "en": {
+        "name": "Julia B.Grenier",
+        "title": "Software Engineering Co-op Student",
+        "bio": "I'm a third year Software Engineering Co-op student at McGill University. I love making games, softwares and web apps!\nI'm also a member of GameDev, the game development student society of McGill University.\nWhen I'm not coding, I love doing badminton and trying out new board games.",
+        "skills": {
+            "cpp": "After making small projects and games using C++, I applied my knowledge during my first two software engineering internships!",
+            "python": "I used my knowledge in Python to program a machine-learning model during the CodeML hackathon.",
+            "csharp": "Using Unity, I developed in a team of 5 a 2D game called 'All Rat Remains' during the McGameJam Hackathon.",
+            "java": "I developed a desktop application in Java using JavaFX and a web application using Spring Boot.",
+            "web": "I am trying to learn more about web development by coding this website! I am using Bootstrap for responsive design and Vue.js.",
+            "version_control": "I have experience using different version control system such as Git and Perforce."
+        },
+        "internships": {
+            "autodesk": {
+                "title": "Autodesk, C++",
+                "subtitle": "Software Developer Intern",
+                "duration": "May - August 2024",
+                "info": [
+                    "Redesigned the project management window of the Flame software, improving the user experience and usability by adding BOLD(4 new features): list view, multi-selection, group deletion, and templates.",
+                    "Adapted the automated testing suite by updating over BOLD(10 Python tests) to ensure compatibility with the newly redesigned project management window.",
+                    "Collaborated with cross-functional teams, BOLD(scheduling meetings) to discuss the implementation of BOLD(scalable and adaptable software solutions), ensuring efficiency and attention to detail.",
+                    "Contributed to the deployment process by BOLD(pushing configuration files to production), ensuring the client's environment utilized the latest and most efficient software libraries."
+                ]
+            },
+            "mirametrix": {
+                "title": "Mirametrix Inc., C++",
+                "subtitle": "Software Engineer Intern",
+                "duration": "May - August 2023",
+                "info": [
+                    "Identified and BOLD(resolved over 15 bugs) in the C++ codebase, showcasing strong problem-solving and debugging abilities and enhancing overall software quality.",
+                    "Utilized BOLD(Perforce) as the primary version control system, effectively managing code, tracking changes, and facilitating adherence to a structured agile development process.",
+                    "Engaged in BOLD(code reviews), providing suggestions to team members, resulting in improved code quality and adherence to best practices.",
+                    "Participated in daily stand-up meetings following the BOLD(Scrum methodology) to foster open communication and provide updates on the progress of tasks tracked on BOLD(Jira), the project management tool."
+                ]
+            }
+        },
+        "projects": {
+            "FitHub": {
+                "title": "Full Stack Web Application, Java",
+                "subtitle": "FitHub",
+                "info": [
+                    "Designed and developed a BOLD(full-stack) web application for managing a local sport center, providing a platform for owners and instructors to schedule classes and enabling customers to register for sessions.",
+                    "BOLD(Spring Boot) for the backend, BOLD(Vue.js) for the frontend, and BOLD(PostgreSQL) for the database to create a seamless and efficient user experience.",
+                    "RESTful APIs with Spring Boot to handle BOLD(CRUD) operations, user authentication, and data validation, ensuring secure and reliable data management."
+                ],
+                "link": "https://github.com/McGill-ECSE321-Winter2024/FitHub/wiki/Screenshots",
+                "images": [
+                    "FitHub_login.png",
+                    "FitHub_explore.png"
+                ]
+            },
+            "AssetPlus": {
+                "title": "Desktop Application, Java",
+                "subtitle": "AssetPlus",
+                "info": [
+                    "Developed a modern desktop application using Java and BOLD(JavaFX) in a team of 6 with an appealing UI that keeps track of the defective assets in a hotel.",
+                    "Utilized BOLD(Umple) to generate Java code from models, significantly reducing development time.",
+                    "Implemented tests applying the concepts of behavior-driven development using BOLD(Junit), Gherkin, and Cucumber.io",
+                    "Employed Git to manage the codebase efficiently by making pull requests and reviewing and merging them.",
+                    "BOLD(Won) the title \"Best Application\" against 15 other teams after presenting the app's efficiency and showcasing the additional features added, such as BOLD(multi-language support)."
+                ],
+                "link": "https://github.com/F2023-ECSE223/ecse223-group-project-p12/wiki/Iterations-4%E2%80%905",
+                "images": [
+                    "assetplus.png",
+                    "assetplus2.png"
+                ]
+            },
+            "AllRatRemains": {
+                "title": "2D Unity game, C#",
+                "subtitle": "All Rat Remains - McGameJam Hackathon",
+                "info": [
+                    "Collaborated with 4 teammates to create a 2D game in C# incorporating mazes, puzzles and a mysterious plot.",
+                    "Won the category \"Best Audio Design\".",
+                    "Efficiently managed the game's implementations using Unity and Git."
+                ],
+                "link": "https://ethearian.itch.io/all-rat-remains",
+                "images": [
+                    "all_rat_remains.png"
+                ]
+            },
+            "CodeML": {
+                "title": "Machine Learning model, Python",
+                "subtitle": "Model predicting the risk of a stroke - CodeML Hackathon",
+                "info": [
+                    "Worked in a team of 4 with Google Colab to build an artificial intelligence model in Python that predicts if someone will have a stroke.",
+                    "Reached the top 5 of our ranking with the model developed.",
+                    "Trained the model using classifiers from the Scikit-learn library on Google Colab to analyze 2000 data.",
+                    "Learned in a machine-learning workshop how to train a model to recognize clothes."
+                ],
+                "link": "https://github.com/julia-b-grenier/tictactoe",
+                "images": [
+                    "codeml.png"
+                ]
+            },
+            "Tic-Tac-Toe": {
+                "title": "C++ game",
+                "subtitle": "TicTacToe",
+                "info": [
+                    "Programmed a Tic-Tac-Toe game in C++ with the SFML software development library."
+                ],
+                "link": "https://github.com/julia-b-grenier/tictactoe",
+                "images": [
+                    "tictactoe1.png"
+                ]
+            }
+        }
+    },
+    "fr": {
+        
+    }
+}

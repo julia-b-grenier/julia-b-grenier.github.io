@@ -21,3 +21,55 @@ body {
 p {
   font-size: 1rem;
 }
+
+h1 {
+  color: #20BF55;
+}
+
+h2 {
+  color: #FF8CC6;
+}
+
+h3 {
+  color: #F6BD60;
+}
+
+ul {
+}
+
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.col {
+  min-width: 400px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* Featurettes
+------------------------- */
+.featurette-divider {
+  margin: 3rem 0; /* Space out the Bootstrap <hr> more */
+}
+  
+.featurette-heading {
+  letter-spacing: -.05rem;
+}
+  
+
+/* SKILLS CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.skill .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+/* rtl:begin:ignore */
+.skill .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+/* rtl:end:ignore */
