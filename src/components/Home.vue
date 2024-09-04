@@ -59,15 +59,15 @@ const count = ref(0)
           <h1 class="fw-normal text-center pt-0 mb-4">Skills</h1>
           <SkillCard
             :icons="[
-              { src: '/src/assets/img/cpp.svg', alt: 'C++ programming language logo' },
-              { src: '/src/assets/img/qt.svg', alt: 'Qt logo' },
-              { src: '/src/assets/img/sfml-icon.svg', alt: 'SFML library logo' }
+              { src: 'cpp.svg', alt: 'C++ programming language logo' },
+              { src: 'qt.svg', alt: 'Qt logo' },
+              { src: 'sfml-icon.svg', alt: 'SFML library logo' }
             ]"
             :text="$t('skills.cpp')"
           />
           <SkillCard
             :icons="[
-              { src: '/src/assets/img/python.svg', alt: 'Python programming language logo' }
+              { src: 'python.svg', alt: 'Python programming language logo' }
             ]"
             :text="$t('skills.python')"
             >
@@ -75,8 +75,8 @@ const count = ref(0)
           </SkillCard>
           <SkillCard
             :icons="[
-              { src: '/src/assets/img/csharp.svg', alt: 'C# programming language logo' },
-              { src: '/src/assets/img/unity.svg', alt: 'Unity logo' }
+              { src: 'csharp.svg', alt: 'C# programming language logo' },
+              { src: 'unity.svg', alt: 'Unity logo' }
             ]"
             :text="$t('skills.csharp')"
             >
@@ -84,8 +84,8 @@ const count = ref(0)
           </SkillCard>
           <SkillCard
             :icons="[
-              { src: '/src/assets/img/java.svg', alt: 'Java programming language logo' },
-              { src: '/src/assets/img/spring-boot.svg', alt: 'Spring Boot logo' }
+              { src: 'java.svg', alt: 'Java programming language logo' },
+              { src: 'spring-boot.svg', alt: 'Spring Boot logo' }
             ]"
             :text="$t('skills.java')"
             >
@@ -96,18 +96,18 @@ const count = ref(0)
           </SkillCard>
           <SkillCard
             :icons="[
-              { src: '/src/assets/img/html.svg', alt: 'HTML logo' },
-              { src: '/src/assets/img/css.svg', alt: 'CSS logo' },
-              { src: '/src/assets/img/javascript.svg', alt: 'JavaScript logo' },
-              { src: '/src/assets/img/vue-js-icon.svg', alt: 'Vue.js logo' }
+              { src: 'html.svg', alt: 'HTML logo' },
+              { src: 'css.svg', alt: 'CSS logo' },
+              { src: 'javascript.svg', alt: 'JavaScript logo' },
+              { src: 'vue-js-icon.svg', alt: 'Vue.js logo' }
             ]"
             :text="$t('skills.web')"
             >
           </SkillCard>
           <SkillCard
             :icons="[
-              { src: '/src/assets/img/git.svg', alt: 'Git logo' },
-              { src: '/src/assets/img/perforce.svg', alt: 'Perforce logo' }
+              { src: 'git.svg', alt: 'Git logo' },
+              { src: 'perforce.svg', alt: 'Perforce logo' }
             ]"
             :text="$t('skills.version_control')"
             >

@@ -14,10 +14,10 @@
     </div>
     <div class="col-md-5" :class="{'order-md-1': reverse}">
       <img
-        v-for="(image, index) in images"
+        v-for="(image, index) in imageUrls"
         :key="index"
         class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto mb-1"
-        :src="`/src/assets/img/${image}`"
+        :src="image"
         :alt="`Screenshot of ${image}`"
         width="500"
       />
@@ -58,6 +58,11 @@ export default {
       default: false
     }
   },
+  computed: {
+    imageUrls() {
+      return this.images.map(image => new URL(`/src/assets/img/${image}`, import.meta.url).href);
+    }
+  },
   methods: {
     formatText(text) {
       return text.replace(/BOLD\((.*?)\)/g, '<strong>$1</strong>');
@@ -65,4 +70,3 @@ export default {
   }
 };
 </script>
-  
