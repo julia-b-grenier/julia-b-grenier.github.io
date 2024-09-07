@@ -28,9 +28,9 @@ const count = ref(0)
               <li class="nav-item">
                 <a class="nav-link" target="_blank" href="https://www.linkedin.com/in/julia-b-grenier/">{{ $t('navbar.linkedin') }}</a>
               </li>
-              <li class="nav-item">
+              <!-- <li class="nav-item">
                 <a class="nav-link" title="PDF of my resume" target="_blank" href="cvs/CV_JuliaBGrenier_en.pdf">{{ $t('navbar.resume') }}</a>
-              </li>
+              </li> -->
               <li class="nav-item">
                 <button class="nav-link" @click="toggleLocale">{{ currentLocale.toUpperCase() }}</button>
               </li>
