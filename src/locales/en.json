@@ -5,15 +5,16 @@
       "linkedin": "LinkedIn",
       "resume": "Resume"
     },
-    "name": "Julia B. Grenier",
-    "title": "Software Engineering Co-op Student",
+    "name": "I'm Julia B.Grenier",
+    "title": "a Software Engineering Co-op Student",
+    "checkout": "Checkout these links to see what I have done",
     "bio": "I'm a third-year Software Engineering Co-op student at McGill University. I love making games, software, and web apps!\nI'm also a member of GameDev, the game development student society at McGill University.\nWhen I'm not coding, I love playing badminton and trying out new board games.",
     "skills": {
-        "cpp": "After making small projects and games using C++, I applied my knowledge during my first two software engineering internships!",
-        "python": "I used my knowledge in Python to program a machine-learning model during the CodeML hackathon.",
+        "cpp": "After making small projects and games using C++, I applied my knowledge during my first three software engineering internships!",
+        "python": "I developped a machine-learning model during the CodeML hackathon using Python.",
         "csharp": "Using Unity, I developed a 2D game called 'All Rat Remains' in a team of 5 during the McGameJam Hackathon.",
         "java": "I developed a desktop application in Java using JavaFX and a web application using Spring Boot.",
-        "web": "I am trying to learn more about web development by coding this website! I am using Bootstrap for responsive design and Vue.js.",
+        "web": "In addition to this website, I have build multiple web applications during hackathons and school projects",
         "version_control": "I have experience using different version control systems such as Git and Perforce."
     },
     "internships": {

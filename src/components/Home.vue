@@ -13,7 +13,7 @@ const count = ref(0)
     <header>
       <nav class="navbar navbar-expand-md navbar-dark">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">My Portfolio</a>
+          <a class="navbar-brand" href="#">Julia's Portfolio</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -28,9 +28,6 @@ const count = ref(0)
               <li class="nav-item">
                 <a class="nav-link" target="_blank" href="https://www.linkedin.com/in/julia-b-grenier/">{{ $t('navbar.linkedin') }}</a>
               </li>
-              <!-- <li class="nav-item">
-                <a class="nav-link" title="PDF of my resume" target="_blank" href="cvs/CV_JuliaBGrenier_en.pdf">{{ $t('navbar.resume') }}</a>
-              </li> -->
               <li class="nav-item">
                 <button class="nav-link" @click="toggleLocale">{{ currentLocale.toUpperCase() }}</button>
               </li>
@@ -41,82 +38,107 @@ const count = ref(0)
     </header>
 
     <div>
-      <div class="container skill">
-        <div id="presentation" class="row featurette pt-4 d-flex align-items-center" v-motion-fade-visible-once >
-          <div class="col-md-7">
-            <h1 class="featurette-heading fw-normal lh-1 ml12">{{ $t('name') }}</h1>
-            <h2 class="fw-light lh-2 mb-4">{{ $t('title') }}</h2>
-            <p class="lead" v-html="$t('bio').replace(/\n/g, '<br><br>')"></p>
-          </div>
-          <div class="col-md-5 text-center my-auto">
-            <img width="300" height="300" class="rounded-circle" id="pfp" src="/src/assets/img/pfp.jpg" alt="Julia B.Grenier profil picture"/>
+      <div class="mx-5">
+        <div id="presentation" class="featurette" v-motion-fade-visible-once >
+          <div class="d-flex flex-column">
+            <h1 class="ml12 text-center mb-5 align-items-center">Welcome!</h1>
+            <h2 class="text-center">{{ $t('name') }}</h2>
+            <h3 class="text-center lead mb-5">{{ $t('title') }}</h3>
+            
+            <div class="d-flex justify-content-center">
+              <v-icon name="hi-solid-star" scale="1.2"/><p class="ml12 text-center mb-5 align-items-center mx-2"> {{ $t('checkout') }} </p><v-icon name="hi-solid-star" scale="1.2"/>
+            </div>
+            <div class="container">
+              <div class="d-flex justify-content-evenly flex-wrap">
+                <div class="border border-1 rounded-pill border-light btn-section p-2 px-4 my-2">
+                  <a :href="link" target="_blank">Skills &raquo;</a>
+                </div>
+                <div class="border border-1 rounded-pill border-light btn-section p-2 px-4 my-2">
+                  <a :href="link" target="_blank">Experience &raquo;</a>
+                </div>
+                <div class="border border-1 rounded-pill border-light btn-section p-2 px-4 my-2">
+                  <a :href="link" target="_blank">Projects &raquo;</a>
+                </div>
+                <div class="border border-1 rounded-pill border-light btn-section p-2 px-4 my-2">
+                  <a :href="link" target="_blank">Involment &raquo;</a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
 
         <hr class="featurette-divider">
-        
-        <div id="skills.section" class="row"  v-motion-slide-visible-once-bottom >
-          <h1 class="fw-normal text-center pt-0 mb-4">Skills</h1>
-          <SkillCard
-            :icons="[
-              { src: 'cpp.svg', alt: 'C++ programming language logo' },
-              { src: 'qt.svg', alt: 'Qt logo' },
-              { src: 'sfml-icon.svg', alt: 'SFML library logo' }
-            ]"
-            :text="$t('skills.cpp')"
-          />
-          <SkillCard
-            :icons="[
-              { src: 'python.svg', alt: 'Python programming language logo' }
-            ]"
-            :text="$t('skills.python')"
-            >
-            <p><a class="btn btn-secondary" href="#CodeML">View project &raquo;</a></p>
-          </SkillCard>
-          <SkillCard
-            :icons="[
-              { src: 'csharp.svg', alt: 'C# programming language logo' },
-              { src: 'unity.svg', alt: 'Unity logo' }
-            ]"
-            :text="$t('skills.csharp')"
-            >
-            <p><a class="btn btn-secondary" href="#AllRatRemains">View project &raquo;</a></p>
-          </SkillCard>
-          <SkillCard
-            :icons="[
-              { src: 'java.svg', alt: 'Java programming language logo' },
-              { src: 'spring-boot.svg', alt: 'Spring Boot logo' }
-            ]"
-            :text="$t('skills.java')"
-            >
-            <div>
-              <a class="btn btn-secondary" href="#AssetPlus">View Desktop App &raquo;</a>
-              <a class="btn btn-secondary m-1" href="#FitHub">View Web App &raquo;</a>
-            </div>
-          </SkillCard>
-          <SkillCard
-            :icons="[
-              { src: 'html.svg', alt: 'HTML logo' },
-              { src: 'css.svg', alt: 'CSS logo' },
-              { src: 'javascript.svg', alt: 'JavaScript logo' },
-              { src: 'vue-js-icon.svg', alt: 'Vue.js logo' }
-            ]"
-            :text="$t('skills.web')"
-            >
-          </SkillCard>
-          <SkillCard
-            :icons="[
-              { src: 'git.svg', alt: 'Git logo' },
-              { src: 'perforce.svg', alt: 'Perforce logo' }
-            ]"
-            :text="$t('skills.version_control')"
-            >
-          </SkillCard>
+
+        <div id="skills.section" class=""  v-motion-slide-visible-once-bottom >
+          <h2 class="fw-normal text-center pt-0 mb-4">Skills</h2>
+          <div class="d-flex flex-wrap justify-content-evenly">
+            <SkillCard
+              :icons="[
+                { src: 'cpp.svg', alt: 'C++ programming language logo' },
+                { src: 'qt.svg', alt: 'Qt logo' },
+                { src: 'sfml-icon.svg', alt: 'SFML library logo' }
+              ]"
+              :text="$t('skills.cpp')"
+              >
+              <p><a class="btn btn-secondary" href="#Internships">Internships &raquo;</a></p>
+            </SkillCard>
+            <SkillCard
+              :icons="[
+                { src: 'python.svg', alt: 'Python programming language logo' }
+              ]"
+              :text="$t('skills.python')"
+              >
+              <div>
+                <a class="btn btn-secondary" href="#CodeML">ML model &raquo;</a>
+                <a class="btn btn-secondary m-1" href="#Internships">Autodesk &raquo;</a>
+              </div>
+            </SkillCard>
+            <SkillCard
+              :icons="[
+                { src: 'csharp.svg', alt: 'C# programming language logo' },
+                { src: 'unity.svg', alt: 'Unity logo' }
+              ]"
+              :text="$t('skills.csharp')"
+              >
+              <p><a class="btn btn-secondary" href="#AllRatRemains">2D Game &raquo;</a></p>
+            </SkillCard>
+            <SkillCard
+              :icons="[
+                { src: 'java.svg', alt: 'Java programming language logo' },
+                { src: 'spring-boot.svg', alt: 'Spring Boot logo' }
+              ]"
+              :text="$t('skills.java')"
+              >
+              <div>
+                <a class="btn btn-secondary" href="#AssetPlus">Desktop App &raquo;</a>
+                <a class="btn btn-secondary m-1" href="#FitHub">Web App &raquo;</a>
+              </div>
+            </SkillCard>
+            <SkillCard
+              :icons="[
+                { src: 'html.svg', alt: 'HTML logo' },
+                { src: 'css.svg', alt: 'CSS logo' },
+                { src: 'javascript.svg', alt: 'JavaScript logo' },
+                { src: 'vue-js-icon.svg', alt: 'Vue.js logo' }
+              ]"
+              :text="$t('skills.web')"
+              >
+            </SkillCard>
+            <SkillCard
+              :icons="[
+                { src: 'git.svg', alt: 'Git logo' },
+                { src: 'perforce.svg', alt: 'Perforce logo' }
+              ]"
+              :text="$t('skills.version_control')"
+              >
+              <p><a class="btn btn-secondary" href="#Internships">Internships &raquo;</a></p>
+            </SkillCard>
+          </div>
         </div><!-- /.row -->    
 
         <hr class="featurette-divider">
 
-        <h1 class="fw-normal text-center">Software Engineering Experience</h1>
+        <h1 id="Internships" class="fw-normal text-center">Software Engineering Experience</h1>
         <div>
           <InternshipCard
             v-for="(internshipKey, index) in internshipKeys"
@@ -212,7 +234,7 @@ export default {
 </script>
 <style scoped>
 #page {
-  background-color: #FDFFFC;
+  background-color: #141414;
   margin: 0px;
   padding: 0px;
   height: 100%;
@@ -220,10 +242,21 @@ export default {
 
 #presentation {
   min-height: 80vh;
+  background-color: #141414;
+  border-width: 2px;
+  border-color: #333333;
+  padding: 3rem;
+}
+
+.navbar-brand {
+  color: #C3F25588;
+}
+.navbar-brand:hover {
+  color: #C3F255;
 }
 
 .navbar {
-  background-color: #2589BD;
+  background-color: #141414 ;
 }
 
 .navbar-collapse {
@@ -254,29 +287,6 @@ img {
   max-width: inherit;
   height: inherit;
   min-width: 200px;
-}
-
-.png-icon {
-  height: auto; /* Maintain aspect ratio */
-  width: 60px !important; /* Set the desired width */
-  max-width: 100%;
-  min-width: 60px;
-  height: auto;
-}
-
-.svg-icon {
-  width: 80px; /* Set the desired width */
-  height: 80px; /* Maintain aspect ratio */
-}
-.svg-container {
-  width: 80px; /* Ensure the container has the same width */
-  height: 80px; /* Set the height as desired */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.d-flex img {
-  flex-shrink: 0; /* Prevent images from shrinking */
 }
 
 /* RESPONSIVE CSS

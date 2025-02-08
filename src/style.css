@@ -8,7 +8,7 @@ html, body {
   margin: 0px;
   padding: 0px;
   height: 100%;
-  color: #181D27;
+  color: #a5a5a5;
   box-sizing: border-box;
   overflow-x: hidden;
 }
@@ -23,15 +23,18 @@ p {
 }
 
 h1 {
-  color: #20BF55;
+  color: #C3F255;
+  font-weight: bold;
 }
 
 h2 {
-  color: #FF8CC6;
+  color: #7C77B9;
+  font-weight: bold;
 }
 
 h3 {
-  color: #F6BD60;
+  color: #7C77B9;
+  font-weight: bold;
 }
 
 .row {
@@ -40,15 +43,26 @@ h3 {
 }
 
 .col {
-  min-width: 400px;
   padding-left: 0;
   padding-right: 0;
+}
+
+.btn-section {
+  background-color: transparent;
+  padding: 5px;
+  color: #a5a5a5;
+  border: #a5a5a5;
+}
+
+.btn-section:hover {
+  background-color: whitesmoke;
+  color: #333333;
 }
 
 .btn-secondary {
   background-color: #A54657;
   border: #A54657;
-  border-radius: 20px;
+  border-radius: 1rem;
 }
 
 .btn-secondary:hover {
