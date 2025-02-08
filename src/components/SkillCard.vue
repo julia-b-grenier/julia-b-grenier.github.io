@@ -1,6 +1,6 @@
 <template>
-    <div class="col-lg-3 mb-4 px-3">
-      <div class="d-flex flex-row justify-content-around align-items-center mb-3">
+    <div class="col-lg-4 my-4 px-3">
+      <div class="d-flex flex-row justify-content-evenly mb-3">
         <div v-for="(icon, index) in iconUrls" :key="index" class="svg-container">
           <img :class="['bd-placeholder-img', 'svg-icon']" :src="icon.src" :alt="icon.alt" />
         </div>

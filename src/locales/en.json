@@ -5,28 +5,44 @@
       "linkedin": "LinkedIn",
       "resume": "Resume"
     },
-    "name": "I'm Julia B.Grenier",
+    "welcome": "Welcome!",
+    "name": "I'm Julia B.Grenier,",
     "title": "a Software Engineering Co-op Student",
     "checkout": "Checkout these links to see what I have done",
-    "bio": "I'm a third-year Software Engineering Co-op student at McGill University. I love making games, software, and web apps!\nI'm also a member of GameDev, the game development student society at McGill University.\nWhen I'm not coding, I love playing badminton and trying out new board games.",
+    "sections" : {
+        "skills": "Skills",
+        "experience_short": "Experience",
+        "experience": "Software Engineering Experience",
+        "projects": "Projects" 
+    },
     "skills": {
-        "cpp": "After making small projects and games using C++, I applied my knowledge during my first three software engineering internships!",
-        "python": "I developped a machine-learning model during the CodeML hackathon using Python.",
+        "cpp": "After making small projects and games using C++, I applied my knowledge during my software engineering internships!",
+        "python": "I used Python during my internship at Autodesk and I also developped a machine-learning model during the CodeML hackathon using Python.",
         "csharp": "Using Unity, I developed a 2D game called 'All Rat Remains' in a team of 5 during the McGameJam Hackathon.",
         "java": "I developed a desktop application in Java using JavaFX and a web application using Spring Boot.",
         "web": "In addition to this website, I have build multiple web applications during hackathons and school projects",
-        "version_control": "I have experience using different version control systems such as Git and Perforce."
+        "editors": "I use VS code most of the time but I like to use Vim when I am inside a terminal.",
+        "databases": "I have hands-on experience from projects using PostgreSQL for relational databases and Firebase NoSQL for real-time data storage.",
+        "version_control": "I have experience using different version control systems such as Git and Perforce.",
+        "other": "During my internships, I gained hands-on experience with various tools like Docker, Jenkins, and Jira, as well as exposure to Agile methodologies."
     },
     "internships": {
+        "matrox": {
+            "title": "Matrox, C++",
+            "subtitle": "Software Developer Intern",
+            "duration": "January - Present 2025",
+            "info": [
+                "Currently contributing to the maintenance and enhancement of the build system and the internal development tools. "
+            ]
+        },
         "autodesk": {
             "title": "Autodesk, C++",
             "subtitle": "Software Developer Intern",
             "duration": "May - August 2024",
             "info": [
-                "Redesigned the project management window of the Flame software, improving the user experience and usability by adding BOLD(4 new features): list view, multi-selection, group deletion, and templates.",
-                "Adapted the automated testing suite by updating over BOLD(10 Python tests) to ensure compatibility with the newly redesigned project management window.",
-                "Collaborated with cross-functional teams, BOLD(scheduling meetings) to discuss the implementation of BOLD(scalable and adaptable software solutions), ensuring efficiency and attention to detail.",
-                "Contributed to the deployment process by BOLD(pushing configuration files to production), ensuring the client's environment utilized the latest and most efficient software libraries."
+                "Redesigned the project management window of Autodesk Flame by simplifying navigation and introducing four new features, which made tasks like deleting projects quicker and more intuitive, leading to an estimated 50% reduction in project management time.",
+                "Optimized automated testing suites by updating over 10 Python test cases, ensuring compatibility with the new design.",
+                "Ensured code quality by participating in code reviews using Git and GitHub."
             ]
         },
         "mirametrix": {
@@ -34,21 +50,35 @@
             "subtitle": "Software Engineer Intern",
             "duration": "May - August 2023",
             "info": [
-                "Identified and BOLD(resolved over 15 bugs) in the C++ codebase, showcasing strong problem-solving and debugging abilities and enhancing overall software quality.",
-                "Utilized BOLD(Perforce) as the primary version control system, effectively managing code, tracking changes, and facilitating adherence to a structured agile development process.",
-                "Engaged in BOLD(code reviews), providing suggestions to team members, resulting in improved code quality and adherence to best practices.",
-                "Participated in daily stand-up meetings following the BOLD(Scrum methodology) to foster open communication and provide updates on the progress of tasks tracked on BOLD(Jira), the project management tool."
+                "Resolved over 15 bugs in the Qt application, directly improving 20% of the application's features.",
+                "Utilized Perforce as the primary version control system, effectively managing code and tracking changes.",
+                "Participated in daily stand-up meetings following the Scrum methodology to foster open communication and provide updates on the progress of tasks tracked on Jira. ",
+                "Engaged in more than 10 code reviews, providing suggestions to team members and improving code quality."
             ]
         }
     },
     "projects": {
+        "GuessOrMess": {
+            "title": "Web Game",
+            "subtitle": "Guess Or Mess",
+            "info": [
+                "Developed Guess or MESS, an interactive study platform that transforms Anki flashcards into live, multiplayer quiz games, enhancing engagement through competitive leaderboards and real-time gameplay.",
+                "Utilized TypeScript, React.js, and Tailwind CSS to build a responsive and intuitive user interface for seamless gameplay and deck management.",
+                "Leveraged Firebase for backend operations, including flashcard processing, game state management, and web app hosting, ensuring scalability and real-time functionality.   "
+            ],
+            "link": "https://devpost.com/software/guess-or-mess?ref_content=my-projects-tab&ref_feature=my_projects",
+            "images": [
+                "guess_or_mess.png",
+                "guess_or_mess2.png"
+            ]
+        },
         "FitHub": {
             "title": "Full Stack Web Application, Java",
             "subtitle": "FitHub",
             "info": [
                 "Designed and developed a BOLD(full-stack) web application for managing a local sports center, providing a platform for owners and instructors to schedule classes and enabling customers to register for sessions.",
-                "BOLD(Spring Boot) for the backend, BOLD(Vue.js) for the frontend, and BOLD(PostgreSQL) for the database to create a seamless and efficient user experience.",
-                "RESTful APIs with Spring Boot to handle BOLD(CRUD) operations, user authentication, and data validation, ensuring secure and reliable data management."
+                "Utilized Spring Boot and PostgreSQL for the back end and HTML, CSS, and Vue.js for the front end.",
+                "Implemented RESTful APIs with Spring Boot to handle CRUD operations, user authentication, and data validation."
             ],
             "link": "https://github.com/McGill-ECSE321-Winter2024/FitHub/wiki/Screenshots",
             "images": [
@@ -60,10 +90,9 @@
             "title": "Desktop Application, Java",
             "subtitle": "AssetPlus",
             "info": [
-                "Developed a modern desktop application using Java and BOLD(JavaFX) in a team of 6 with an appealing UI that keeps track of defective assets in a hotel.",
-                "Utilized BOLD(Umple) to generate Java code from models, significantly reducing development time.",
-                "Implemented tests applying the concepts of behavior-driven development using BOLD(Junit), Gherkin, and Cucumber.io.",
-                "Employed Git to manage the codebase efficiently by making pull requests and reviewing and merging them.",
+                "Developed a desktop application using JavaFX in a team of 6 that keeps track of defective assets in a hotel.",
+                "Optimized development using Umple and by applying the MVC(Model-View-Controller) software design pattern, leading to a modular architecture.",
+                "Implemented tests applying the concepts of behavior-driven development using JUnit, and Gherkin.",
                 "BOLD(Won) the title 'Best Application' against 15 other teams after presenting the app's efficiency and showcasing the additional features added, such as BOLD(multi-language support)."
             ],
             "link": "https://github.com/F2023-ECSE223/ecse223-group-project-p12/wiki/Iterations-4%E2%80%905",

@@ -8,7 +8,7 @@
           <li v-for="(point, index) in bulletPoints" :key="index" v-html="formatText(point)"></li>
         </ul>
         <p v-if="link">
-          <a class="btn btn-secondary" :href="link" target="_blank">See more! &raquo;</a>
+          <a class="btn btn-secondary border border-2 p-2 px-4 " :href="link" target="_blank">See more! &raquo;</a>
         </p>
       </div>
     </div>

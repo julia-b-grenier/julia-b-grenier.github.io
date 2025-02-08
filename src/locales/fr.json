@@ -1,53 +1,84 @@
 {
     "navbar": {
-      "home": "Accueil",
-      "github": "GitHub",
-      "linkedin": "LinkedIn",
-      "resume": "CV"
+        "home": "Accueil",
+        "github": "GitHub",
+        "linkedin": "LinkedIn",
+        "resume": "CV"
     },
-    "name": "Julia B. Grenier",
-    "title": "Étudiante en Génie Logiciel en Coop",
-    "bio": "Je suis une étudiante en troisième année de Génie Logiciel en Coop à l'Université McGill. J'adore créer des jeux, des logiciels et des applications web !\nJe suis également membre de GameDev, la société étudiante de développement de jeux à l'Université McGill.\nQuand je ne code pas, j'aime jouer au badminton et essayer de nouveaux jeux de société.",
+    "welcome": "Bienvenue!",
+    "name": "Je suis Julia B.Grenier,",
+    "title": "une étudiante en génie logiciel en stage coop",
+    "checkout": "Visitez ces liens pour voir ce que j'ai réalisé",
+    "sections" : {
+        "skills": "Compétences",
+        "experience_short": "Expérience",
+        "experience": "Expérience en Génie Logiciel",
+        "projects": "Projets" 
+    },
     "skills": {
-        "cpp": "Après avoir réalisé de petits projets et jeux en utilisant C++, j'ai appliqué mes connaissances lors de mes deux premiers stages en génie logiciel !",
-        "python": "J'ai utilisé mes connaissances en Python pour programmer un modèle d'apprentissage automatique lors du hackathon CodeML.",
-        "csharp": "Avec Unity, j'ai développé en équipe de 5 un jeu 2D appelé 'All Rat Remains' lors du hackathon McGameJam.",
-        "java": "J'ai développé une application de bureau en Java en utilisant JavaFX et une application web en utilisant Spring Boot.",
-        "web": "J'essaie d'en apprendre davantage sur le développement web en codant ce site web ! J'utilise Bootstrap pour le design réactif et Vue.js.",
-        "version_control": "J'ai de l'expérience avec différents systèmes de contrôle de version tels que Git et Perforce."
+        "cpp": "Après avoir réalisé de petits projets et jeux en C++, j'ai appliqué mes connaissances lors de mes stages en génie logiciel !",
+        "python": "J'ai utilisé Python pendant mon stage chez Autodesk et j'ai également développé un modèle d'apprentissage automatique lors du hackathon CodeML.",
+        "csharp": "Avec Unity, j'ai développé un jeu 2D appelé 'All Rat Remains' en équipe de 5 lors du hackathon McGameJam.",
+        "java": "J'ai développé une application de bureau en Java avec JavaFX ainsi qu'une application web avec Spring Boot.",
+        "web": "En plus de ce site web, j'ai créé plusieurs applications web lors de hackathons et de projets scolaires.",
+        "editors": "J'utilise principalement VS Code, mais j'aime aussi utiliser Vim lorsque je suis dans un terminal.",
+        "databases": "J'ai de l'expérience pratique sur des projets utilisant PostgreSQL pour gérer la base de données relationnelles et Firebase NoSQL pour le stockage de données en temps réel.",
+        "version_control": "J'ai de l'expérience avec différents systèmes de contrôle de version tels que Git et Perforce.",
+        "other": "Lors de mes stages, j'ai acquis de l'expérience pratique avec divers outils comme Docker, Jenkins et Jira, ainsi qu'une exposition aux méthodologies Agile."
     },
     "internships": {
+        "matrox": {
+            "title": "Matrox, C++",
+            "subtitle": "Stagiaire en développement logiciel",
+            "duration": "Janvier - Présent 2025",
+            "info": [
+                "Contribue actuellement à la maintenance et à l'amélioration du système de build et des outils de développement internes."
+            ]
+        },
         "autodesk": {
             "title": "Autodesk, C++",
-            "subtitle": "Stagiaire Développeur Logiciel",
+            "subtitle": "Stagiaire en développement logiciel",
             "duration": "Mai - Août 2024",
             "info": [
-                "Reconcevoir la fenêtre de gestion de projets du logiciel Flame, améliorant l'expérience utilisateur et l'utilisabilité en ajoutant BOLD(4 nouvelles fonctionnalités) : vue en liste, sélection multiple, suppression en groupe et modèles.",
-                "Adapter la suite de tests automatisés en mettant à jour plus de BOLD(10 tests Python) pour assurer la compatibilité avec la fenêtre de gestion de projets nouvellement redesignée.",
-                "Collaborer avec des équipes multifonctionnelles, BOLD(planifier des réunions) pour discuter de la mise en œuvre de BOLD(solutions logicielles évolutives et adaptables), garantissant l'efficacité et l'attention aux détails.",
-                "Contribuer au processus de déploiement en BOLD(poussant les fichiers de configuration en production), en veillant à ce que l'environnement du client utilise les bibliothèques logicielles les plus récentes et les plus efficaces."
+                "Redesign de la fenêtre de gestion de projet d'Autodesk Flame en simplifiant la navigation et en introduisant quatre nouvelles fonctionnalités, réduisant le temps de gestion de projet d'environ 50 %.",
+                "Optimisation des suites de tests automatisés en mettant à jour plus de 10 tests Python pour assurer leur compatibilité avec le nouveau design.",
+                "Participation aux revues de code en utilisant Git et GitHub pour garantir la qualité du code."
             ]
         },
         "mirametrix": {
             "title": "Mirametrix Inc., C++",
-            "subtitle": "Stagiaire Ingénieur Logiciel",
+            "subtitle": "Stagiaire en ingénierie logicielle",
             "duration": "Mai - Août 2023",
             "info": [
-                "Identifié et BOLD(résolu plus de 15 bugs) dans la base de code C++, démontrant de solides capacités de résolution de problèmes et de débogage et améliorant la qualité globale du logiciel.",
-                "Utilisé BOLD(Perforce) comme système de contrôle de version principal, gérant efficacement le code, suivant les changements et facilitant l'adhésion à un processus de développement agile structuré.",
-                "Participé à des BOLD(revues de code), fournissant des suggestions aux membres de l'équipe, entraînant une amélioration de la qualité du code et du respect des meilleures pratiques.",
-                "Participé aux réunions quotidiennes en suivant la BOLD(méthodologie Scrum) pour favoriser la communication ouverte et fournir des mises à jour sur l'avancement des tâches suivies sur BOLD(Jira), l'outil de gestion de projet."
+                "Correction de plus de 15 bugs dans l'application Qt, améliorant directement 20 % des fonctionnalités de l'application.",
+                "Utilisation de Perforce comme principal système de contrôle de version pour gérer efficacement le code et suivre les modifications.",
+                "Participation aux réunions quotidiennes Scrum pour assurer une communication ouverte et suivre l'avancement des tâches sur Jira.",
+                "Réalisation de plus de 10 revues de code en fournissant des suggestions aux membres de l'équipe et en améliorant la qualité du code."
             ]
         }
     },
     "projects": {
+        "GuessOrMess": {
+            "title": "Jeu Web",
+            "subtitle": "Guess Or Mess",
+            "info": [
+                "Développement de Guess or MESS, une plateforme d'étude interactive qui transforme les cartes Anki en jeux-questionnaires multijoueurs en temps réel, améliorant l'engagement grâce à des classements compétitifs.",
+                "Utilisation de TypeScript, React.js et Tailwind CSS pour créer une interface utilisateur réactive et intuitive.",
+                "Utilisation de Firebase pour les opérations backend, y compris le traitement des cartes, la gestion de l'état du jeu et l'hébergement web, garantissant évolutivité et fonctionnalité en temps réel."
+            ],
+            "link": "https://devpost.com/software/guess-or-mess?ref_content=my-projects-tab&ref_feature=my_projects",
+            "images": [
+                "guess_or_mess.png",
+                "guess_or_mess2.png"
+            ]
+        },
         "FitHub": {
             "title": "Application Web Full Stack, Java",
             "subtitle": "FitHub",
             "info": [
-                "Conçu et développé une application web BOLD(full-stack) pour la gestion d'un centre sportif local, offrant une plateforme aux propriétaires et instructeurs pour planifier des cours et permettant aux clients de s'inscrire aux séances.",
-                "BOLD(Spring Boot) pour le backend, BOLD(Vue.js) pour le frontend et BOLD(PostgreSQL) pour la base de données pour créer une expérience utilisateur fluide et efficace.",
-                "APIs RESTful avec Spring Boot pour gérer les opérations BOLD(CRUD), l'authentification des utilisateurs et la validation des données, garantissant une gestion sécurisée et fiable des données."
+                "Conception et développement d'une application web BOLD(full-stack) pour la gestion d'un centre sportif, permettant aux propriétaires et aux instructeurs de planifier des cours et aux clients de s'inscrire aux séances.",
+                "Utilisation de Spring Boot et PostgreSQL pour le backend et de HTML, CSS et Vue.js pour le frontend.",
+                "Implémentation d'API RESTful avec Spring Boot pour gérer les opérations CRUD, l'authentification des utilisateurs et la validation des données."
             ],
             "link": "https://github.com/McGill-ECSE321-Winter2024/FitHub/wiki/Screenshots",
             "images": [
@@ -59,11 +90,10 @@
             "title": "Application de Bureau, Java",
             "subtitle": "AssetPlus",
             "info": [
-                "Développé une application de bureau moderne en utilisant Java et BOLD(JavaFX) en équipe de 6 avec une interface utilisateur attrayante qui suit les actifs défectueux dans un hôtel.",
-                "Utilisé BOLD(Umple) pour générer du code Java à partir de modèles, réduisant considérablement le temps de développement.",
-                "Implémenté des tests appliquant les concepts de développement dirigé par le comportement en utilisant BOLD(Junit), Gherkin et Cucumber.io.",
-                "Employé Git pour gérer efficacement la base de code en faisant des demandes de tirage et en les révisant et fusionnant.",
-                "BOLD(Gagné) le titre de 'Meilleure Application' contre 15 autres équipes après avoir présenté l'efficacité de l'application et mis en avant les fonctionnalités supplémentaires ajoutées, telles que BOLD(le support multilingue)."
+                "Développement d'une application de bureau avec JavaFX en équipe de 6 pour suivre les actifs défectueux d'un hôtel.",
+                "Optimisation du développement avec Umple et application du modèle MVC (Modèle-Vue-Contrôleur) pour une architecture modulaire.",
+                "Réalisation de tests en appliquant les concepts du développement axé sur le comportement avec JUnit et Gherkin.",
+                "BOLD(Gagnant) du titre de 'Meilleure Application' parmi 15 équipes après avoir présenté l'efficacité de l'application et ses fonctionnalités supplémentaires, telles que BOLD(le support multilingue)."
             ],
             "link": "https://github.com/F2023-ECSE223/ecse223-group-project-p12/wiki/Iterations-4%E2%80%905",
             "images": [
@@ -75,9 +105,9 @@
             "title": "Jeu 2D Unity, C#",
             "subtitle": "All Rat Remains - Hackathon McGameJam",
             "info": [
-                "Collaboré avec 4 coéquipiers pour créer un jeu 2D en C# intégrant des labyrinthes, des puzzles et une intrigue mystérieuse.",
-                "Gagné la catégorie 'Meilleur Design Audio.'",
-                "Géré efficacement les implémentations du jeu en utilisant Unity et Git."
+                "Collaboration avec 4 coéquipiers pour créer un jeu 2D en C#, intégrant des labyrinthes, des énigmes et une intrigue mystérieuse.",
+                "Gagnant dans la catégorie 'Meilleur Design Audio'.",
+                "Gestion efficace des implémentations du jeu avec Unity et Git."
             ],
             "link": "https://ethearian.itch.io/all-rat-remains",
             "images": [
@@ -85,13 +115,13 @@
             ]
         },
         "CodeML": {
-            "title": "Modèle d'Apprentissage Automatique, Python",
-            "subtitle": "Modèle Prédictif du Risque d'Accident Vasculaire Cérébral - Hackathon CodeML",
+            "title": "Modèle de Machine Learning, Python",
+            "subtitle": "Modèle de Prédiction des AVC - Hackathon CodeML",
             "info": [
-                "Travaillé en équipe de 4 avec Google Colab pour construire un modèle d'intelligence artificielle en Python qui prédit si quelqu'un aura un AVC.",
-                "Atteint le top 5 de notre classement avec le modèle développé.",
-                "Entraîné le modèle en utilisant des classificateurs de la bibliothèque Scikit-learn sur Google Colab pour analyser 2000 points de données.",
-                "Appris dans un atelier sur l'apprentissage automatique comment entraîner un modèle à reconnaître des vêtements."
+                "Travail en équipe de 4 sur Google Colab pour développer un modèle d'intelligence artificielle en Python capable de prédire les risques d'AVC.",
+                "Atteint le top 5 du classement avec le modèle développé.",
+                "Entraînement du modèle avec des classificateurs de la bibliothèque Scikit-learn sur Google Colab, en analysant 2000 points de données.",
+                "Apprentissage dans un atelier de machine learning sur l'entraînement de modèles pour reconnaître des vêtements."
             ],
             "link": "https://github.com/julia-b-grenier/tictactoe",
             "images": [
@@ -99,10 +129,10 @@
             ]
         },
         "TicTacToe": {
-            "title": "Jeu C++, Tic-Tac-Toe",
+            "title": "Jeu en C++",
             "subtitle": "TicTacToe",
             "info": [
-                "Programmé un jeu de Tic-Tac-Toe en C++ avec la bibliothèque de développement logiciel SFML."
+                "Programmation d'un jeu Tic-Tac-Toe en C++ avec la bibliothèque de développement SFML."
             ],
             "link": "https://github.com/julia-b-grenier/tictactoe",
             "images": [
@@ -111,4 +141,3 @@
         }
     }
 }
-
