@@ -1,16 +1,16 @@
 <template>
-  <div class="mx-auto text-center">
+  <div class="min-vh-100 d-flex justify-content-center align-items-center flex-column text-center">
     <iframe
       src="/game/RubanElectrique/index.html"
       frameborder="0"
       class="responsive-iframe"
       style="border: none;">
     </iframe>
-    <div>
-      <p style="font-size: .6rem;">Crédits pour les images de rubans <a href="http://www.freepik.com" target="_blank">upklyak / Freepik</a></p> 
-    </div>
+    <p style="font-size: .6rem;">
+      Crédits pour les images de rubans
+      <a href="http://www.freepik.com" target="_blank">upklyak / Freepik</a>
+    </p>
   </div>
-  
 </template>
 
 <style scoped>
