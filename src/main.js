@@ -5,6 +5,7 @@ import { MotionPlugin } from '@vueuse/motion';
 import './style.css';
 import { OhVueIcon, addIcons } from "oh-vue-icons";
 import { HiSolidStar, HiSolidChevronRight } from "oh-vue-icons/icons";
+import router from './router.js';
 
 // Import the translations from your JSON files
 import enMessages from './locales/en.json';
@@ -27,4 +28,4 @@ const app = createApp(App);
 app.use(i18n);
 app.use(MotionPlugin);
 app.component("v-icon", OhVueIcon);
-app.mount('#app');
+app.use(router).mount('#app');
