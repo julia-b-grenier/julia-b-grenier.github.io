@@ -39,8 +39,8 @@ const count = ref(0)
 
     <div>
       <div class="mx-5">
-        <div id="presentation" class="featurette" v-motion-fade-visible-once >
-          <div class="d-flex flex-column">
+        <div class="featurette" v-motion-fade-visible-once >
+          <div id="presentation" class="d-flex flex-column justify-content-center align-items-center">
             <h1 class="ml12 text-center mb-5 align-items-center">{{ $t('welcome') }}</h1>
             <div class="mx-auto mb-3">
               <img width="100" height="100" class="rounded-circle" id="pfp" src="/src/assets/img/pfp.jpg" alt="Julia B.Grenier profil picture"/>
@@ -280,7 +280,7 @@ export default {
   border-width: 2px;
   border-color: #333333;
   padding: 3rem;
-  color: #a5a5a5;
+  color: #333333;
 }
 
 .navbar-brand {

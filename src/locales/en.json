@@ -32,7 +32,10 @@
             "subtitle": "Software Developer Intern",
             "duration": "January - Present 2025",
             "info": [
-                "Currently contributing to the maintenance and enhancement of the build system and the internal development tools. "
+                "Built the frontend of a proof-of-concept web application using Angular and TypeScript, leveraging existing UI components via Storybook to ensure a consistent look and feel with other company applications.",
+                "Integrated Node.js C++ addons into the backend, enabling direct execution of C++ code to control graphics cards and reuse existing high-performance libraries.",
+                "Developed an RPM package for the deployment of internal tools, using Docker to simulate target Linux environments.",
+                "Implemented a cross-platform (Linux and Windows) installation utilities in C++ for a standalone software product, integrating drivers and using makeself and 7-Zip to generate self-extracting setup programs."
             ]
         },
         "autodesk": {

@@ -47,27 +47,27 @@ h3 {
 
 .btn-section {
   background-color: transparent;
-  color: #a5a5a5;
+  color: #333333;
 }
 
 .btn-section:hover {
   background-color: #C3F255;
-  color: white;
+  color: #333333;
   border-color: transparent !important;
 }
 
 .btn-secondary {
   background-color: transparent;
   padding: 8px;
-  color: #a5a5a5;
-  border: #a5a5a5;
+  color: #333333;
+  border: #333333;
   border-radius: 30px;
   font-size: 0.9rem;
 }
 
 .btn-secondary:hover {
   background-color: #C3F255;
-  color: white;
+  color: #333333;
   border-color: transparent !important;
 }
 
