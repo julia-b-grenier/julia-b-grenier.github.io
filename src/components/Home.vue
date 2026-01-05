@@ -86,8 +86,8 @@ const count = ref(0)
             </SkillCard>
             <SkillCard
               :icons="[
-                { src: 'javascript.svg', alt: 'JavaScript logo' },
-                { src: 'typescript.svg', alt: 'Vue.js logo' },
+                { src: 'typescript.svg', alt: 'Typescript logo' },
+                { src: 'angular.svg', alt: 'Angular logo' },
                 { src: 'react.svg', alt: 'React logo' },
                 { src: 'vue-js-icon.svg', alt: 'Vue.js logo' }
               ]"
