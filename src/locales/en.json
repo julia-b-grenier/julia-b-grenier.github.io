@@ -30,7 +30,7 @@
         "matrox": {
             "title": "Matrox, C++",
             "subtitle": "Software Developer Intern",
-            "duration": "January - Present 2025",
+            "duration": "January - December 2025",
             "info": [
                 "Built the frontend of a proof-of-concept web application using Angular and TypeScript, leveraging existing UI components via Storybook to ensure a consistent look and feel with other company applications.",
                 "Integrated Node.js C++ addons into the backend, enabling direct execution of C++ code to control graphics cards and reuse existing high-performance libraries.",
